@@ -1,5 +1,5 @@
 # CUI-LANGUAGE
-Simple programming laguage implemented in C++
+Simple programming language implemented in C++
 
 > This language is open to extensions and adding more features. The goal is to make a dead-simple programming language comprehensible for those new to programming.
 

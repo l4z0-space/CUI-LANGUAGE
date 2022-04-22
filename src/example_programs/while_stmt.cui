@@ -1,0 +1,10 @@
+begin
+
+    create condition = 5;
+    while(condition)
+    whilebody
+        print("Condition is true");
+        condition = condition - 1
+    endwhile
+
+end

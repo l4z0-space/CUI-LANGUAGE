@@ -1,0 +1,10 @@
+begin
+
+    create condition = 0;
+    if(condition)
+    ifbody
+        print("Condition was true")
+        else do print("Condition was not true")
+    endif
+
+end

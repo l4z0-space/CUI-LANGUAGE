@@ -1,0 +1,18 @@
+begin
+   print("Please enter n to find nth fibonnci number");
+   create n_fib = input_number;
+   n_fib = n_fib - 1;
+   create RESULT = 1;
+   create a = 0;
+   create b = 1;
+
+   while(n_fib)
+   whilebody
+      RESULT = a + b;
+      a = b;
+      b = RESULT;
+      n_fib = n_fib - 1
+   endwhile;
+
+   print("Requested fibonnaci number is: " + b)
+end

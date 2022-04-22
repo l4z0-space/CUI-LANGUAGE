@@ -1,0 +1,9 @@
+begin
+
+    create condition = 1;
+    while(condition)
+    whilebody
+        print("Condition is true")
+    endwhile
+
+end

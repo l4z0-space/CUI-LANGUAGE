@@ -1,0 +1,19 @@
+begin
+   print("Welcome! Press 0 to stop or any number to continue");
+   create a = 0;
+   create b = 0;
+   create sum = 0;
+   create multiplication = 0;
+   while(input_number)
+   whilebody
+      print("Pick the first number: ");
+      a = input_number;
+      print("Pick the second number: ");
+      b = input_number;
+      sum = a + b;
+      multiplication = a * b;
+      print("Sum of your numbers is: " + sum);
+      print("Multiplicaiton of your numbers is: " + multiplication);
+      print("Press 0 to stop or any number to continue")
+   endwhile
+end

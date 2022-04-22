@@ -6,7 +6,7 @@ Simple programming laguage implemented in C++
 
 To run the language
 1. Go to the same directory as main.cpp
-2. <code> g++ -std=c++11 main.cpp -o exe && ./exe 'filename.cui' </code>
+2. <code> g++ -std=c++11 main.cpp -o exe.out && ./exe.out 'filename.cui' </code>
 
 
 Or

@@ -1,6 +1,11 @@
 # CUI-LANGUAGE
 Simple programming language implemented in C++
 
+<div style="display:flex;">
+<img src="logolight.png" width="200" height="200">
+<img src="logodark.png" width="200" height="200">
+</div>
+
 > This language is open to extensions and adding more features. The goal is to make a dead-simple programming language comprehensible for those new to programming.
 
 

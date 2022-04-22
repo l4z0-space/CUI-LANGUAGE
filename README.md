@@ -50,5 +50,45 @@ Other
 
 
 
+## Language Grammar
+
+<code>
+
+  STATEMENT -> EXPRESSION_STATEMENT
+  | IF_STATEMENT
+  | WHILE_STATEMENT
+  | PRINT_STATEMENT
+  | INITIALIZATION_STATEMENT
+
+  EXPRESSION_STATEMENT -> IDENTIFIER "=" TERM;
+
+  IF_STATEMENT -> "if" (TERM) "ifbody" STATEMENT_LIST "else" "do" TERM "endif" ;
+  | "if" (TERM) "ifbody" STATEMENT_LIST "endif" ;
+
+  WHILE_STATEMENT -> "while" (TERM) "whilebody" STATEMENT_LIST "endwhile" ;
+
+  PRINT_STATEMENT -> "print(TERM)" ;
+
+  INITIALIZATION_STATEMENT -> "create" IDENTIFIER "=" TERM ;
+
+  TERM -> FACTOR ( ( "+" | "-" ) FACTOR )* ;
+
+  FACTOR -> UNARY ( ( "*" | "/" | "%" ) UNARY )* ;
+
+  UNARY -> ( "not" | "-" ) LITERAL ;
+
+  LITERAL -> NUMBER | STRING  ;
+
+  VALID_CHAR -> "a" ... "z" | "A" ... "Z" | "_" ;
+
+  DIGIT -> "0" ... "9" ;
+
+  NUMBER -> DIGIT + ( "." (DIGIT)+ )? ;
+
+  STRING -> "\"" <any char> "\"" // Any chars except '\' surroundedby ";
+
+  IDENTIFIER -> VALID_CHAR | (VALID_CHAR | DIGIT) * ;
+
+</code>
 
   

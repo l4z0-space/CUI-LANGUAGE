@@ -1,5 +1,5 @@
 # CUI-LANGUAGE
-Simple programming language implemented in C++
+Simple programming language implemented (handmade :p) in C++
 
 <div style="display:flex;">
 <img src="logolight.png" width="200" height="200">

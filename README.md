@@ -11,13 +11,13 @@ Simple programming language implemented (handmade :p) in C++
 
 To run the language
 1. Go to the same directory as main.cpp
-2. <code> g++ -std=c++11 main.cpp -o exe.out && ./exe.out 'filename.cui' </code>
+2. <code> g++ -std=c++11 main.cpp -o exe.out && ./exe.out 'example_programs/filename.cui' </code>
 
 
 Or
 
 1. Go to the same directory as main.cpp
-2. <code> ./cui.sh 'filename.cui'</code>
+2. <code> ./cui.sh 'example_programs/filename.cui'</code>
 
 
 Features
